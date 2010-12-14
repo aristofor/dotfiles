@@ -6,6 +6,14 @@
 -nsfs
 # --cuddled-else : } else {
 -ce
-# --noopening-sub-brace-on-new-line : sub {
+# --blanks-before-subs
+-bbs
+# --noopening-sub-brace-on-new-line : sub dummy {
 -nsbl
+# --noopening-anonymous-sub-brace-on-new-line : sub {
+-nasbl
+# --stack-opening-tokens : $opt_c = Text::CSV_XS->new( {
+-sot
+# --stack-closing-tokens : } );
+-sct
 
