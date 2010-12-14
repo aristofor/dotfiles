@@ -1,0 +1,11 @@
+# use tabs
+-t
+# --entab-leading-whitespace=4
+-et=4
+# --nospace-for-semicolon : for (;;)
+-nsfs
+# --cuddled-else : } else {
+-ce
+# --noopening-sub-brace-on-new-line : sub {
+-nsbl
+
