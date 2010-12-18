@@ -16,4 +16,10 @@
 -sot
 # --stack-closing-tokens : } );
 -sct
+# --paren-tightness=2 : if ((my $len_tab = length($tabstr)) > 0) {
+-pt=2
+# --brace-tightness=2 :  $obj->{$parsed_sql->{'table'}[0]};
+-bt=2
+# --square-bracket-tightness=2 : $width = $col[$j + $k] - $col[$j];
+-sbt=2
 
