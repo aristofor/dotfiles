@@ -22,4 +22,4 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # make jobs = cores
-export MAKFLAGS="-j$(nproc)"
+export MAKEFLAGS="-j$(nproc)"
