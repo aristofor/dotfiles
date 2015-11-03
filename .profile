@@ -23,3 +23,8 @@ fi
 
 # make jobs = cores
 export MAKEFLAGS="-j$(nproc)"
+
+OPENSCADPATH = "."
+if [ -d "/usr/share/openscad/libraries" ] ; then
+	export OPENSCADPATH="/usr/share/openscad/libraries:$OPENSCADPATH"
+fi
